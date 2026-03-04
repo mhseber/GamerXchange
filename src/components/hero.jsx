@@ -1,30 +1,3 @@
-// import vector1 from "/assets/vector1.png";
-// import vector2 from "/assets/vector2.png";
-// const hero = () => {
-//   return (
-//     <div>
-//       {/* 1 */}
-//       <div className="hero bg-base-200 min-h-screen">
-//         <div className="hero-content flex-col lg:flex-row-reverse">
-//           <img src={vector1} className="max-w-sm rounded-lg shadow-2xl" />
-//           <h1 className="text-4xl font-bold">in progress</h1>
-//           <p>0</p>
-//         </div>
-//       </div>
-//       {/* 2 */}
-//       <div className="hero bg-base-200 min-h-screen">
-//         <div className="hero-content flex-col lg:flex-row-reverse">
-//           <img src={vector2} className="max-w-sm rounded-lg shadow-2xl" />
-//           <h1 className="text-4xl font-bold">Resolved</h1>
-//           <p>0</p>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default hero;
-
 import vector1 from "/assets/vector1.png";
 import vector2 from "/assets/vector2.png";
 
@@ -39,7 +12,7 @@ const Hero = () => {
               <h1 className="text-2xl md:text-3xl font-extrabold mb-2">
                 In Progress
               </h1>
-              <p className="text-5xl font-black">12</p>{" "}
+              <p className="text-5xl font-black">0</p>{" "}
             </div>
             <img
               src={vector2}
@@ -56,7 +29,7 @@ const Hero = () => {
               <h1 className="text-2xl md:text-3xl font-extrabold mb-2">
                 Resolved
               </h1>
-              <p className="text-5xl font-black">45</p>
+              <p className="text-5xl font-black">0</p>
             </div>
             <img
               src={vector1}

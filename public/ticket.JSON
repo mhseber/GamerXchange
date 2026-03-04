@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TKT-001",
+    "title": "Login Authentication Error",
+    "description": "User cannot login with valid credentials on the mobile app.",
+    "customer": "Arif Rahman",
+    "priority": "High",
+    "status": "pending",
+    "createdAt": "2024-05-10T10:30:00Z"
+  },
+  {
+    "id": "TKT-002",
+    "title": "Payment Gateway Timeout",
+    "description": "Transactions are failing due to API timeout in the checkout section.",
+    "customer": "Sultana Ahmed",
+    "priority": "Critical",
+    "status": "pending",
+    "createdAt": "2024-05-11T09:15:00Z"
+  },
+  {
+    "id": "TKT-003",
+    "title": "UI Bug in Dashboard",
+    "description": "Graph labels are overlapping in the analytics view on tablet devices.",
+    "customer": "Zubair Hossain",
+    "priority": "Low",
+    "status": "pending",
+    "createdAt": "2024-05-11T11:45:00Z"
+  },
+  {
+    "id": "TKT-004",
+    "title": "Email Notification Delay",
+    "description": "Customers are receiving password reset emails after 2 hours.",
+    "customer": "Fatima Khan",
+    "priority": "Medium",
+    "status": "pending",
+    "createdAt": "2024-05-12T08:20:00Z"
+  },
+  {
+    "id": "TKT-005",
+    "title": "Database Connection Issue",
+    "description": "Occasional 500 errors appearing during peak hours.",
+    "customer": "Mehedi Hasan",
+    "priority": "High",
+    "status": "pending",
+    "createdAt": "2024-05-12T14:10:00Z"
+  },
+  {
+    "id": "TKT-006",
+    "title": "Search Filter Not Working",
+    "description": "Category filters are not returning accurate results in the store.",
+    "customer": "Anika Tabassum",
+    "priority": "Medium",
+    "status": "pending",
+    "createdAt": "2024-05-13T10:05:00Z"
+  },
+  {
+    "id": "TKT-007",
+    "title": "New Ticket Request",
+    "description": "Customer needs assistance in setting up a business profile.",
+    "customer": "Rakib Uddin",
+    "priority": "Low",
+    "status": "pending",
+    "createdAt": "2024-05-13T16:30:00Z"
+  },
+  {
+    "id": "TKT-008",
+    "title": "Refund Status Inquiry",
+    "description": "User has not received the refund amount after 7 days.",
+    "customer": "Shamsul Arefin",
+    "priority": "High",
+    "status": "pending",
+    "createdAt": "2024-05-14T11:00:00Z"
+  },
+  {
+    "id": "TKT-009",
+    "title": "Image Upload Failure",
+    "description": "Error occurs while uploading profile picture in PNG format.",
+    "customer": "Nadia Islam",
+    "priority": "Medium",
+    "status": "pending",
+    "createdAt": "2024-05-14T13:25:00Z"
+  },
+  {
+    "id": "TKT-010",
+    "title": "Slow Page Loading",
+    "description": "The product detail page takes more than 10 seconds to load.",
+    "customer": "Tanvir Chowdhury",
+    "priority": "High",
+    "status": "pending",
+    "createdAt": "2024-05-15T09:50:00Z"
+  },
+  {
+    "id": "TKT-011",
+    "title": "Export Data Bug",
+    "description": "CSV export is showing garbled characters for local language.",
+    "customer": "Mitu Akter",
+    "priority": "Medium",
+    "status": "pending",
+    "createdAt": "2024-05-15T12:10:00Z"
+  },
+  {
+    "id": "TKT-012",
+    "title": "Mobile Responsive Issue",
+    "description": "Footer section is broken on iPhone 13 Pro screens.",
+    "customer": "Sajjad Hossain",
+    "priority": "Low",
+    "status": "pending",
+    "createdAt": "2024-05-15T15:40:00Z"
+  }
+]
