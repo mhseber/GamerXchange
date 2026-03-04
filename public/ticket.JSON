@@ -3,7 +3,7 @@
     "id": "TKT-001",
     "title": "Login Authentication Error",
     "description": "User cannot login with valid credentials on the mobile app.",
-    "customer": "Arif Rahman",
+    "customer": "MH.SEBER",
     "priority": "High",
     "status": "pending",
     "createdAt": "2024-05-10T10:30:00Z"
@@ -12,7 +12,7 @@
     "id": "TKT-002",
     "title": "Payment Gateway Timeout",
     "description": "Transactions are failing due to API timeout in the checkout section.",
-    "customer": "Sultana Ahmed",
+    "customer": "Ratul Islam",
     "priority": "Critical",
     "status": "pending",
     "createdAt": "2024-05-11T09:15:00Z"
@@ -21,7 +21,7 @@
     "id": "TKT-003",
     "title": "UI Bug in Dashboard",
     "description": "Graph labels are overlapping in the analytics view on tablet devices.",
-    "customer": "Zubair Hossain",
+    "customer": "Tushar",
     "priority": "Low",
     "status": "pending",
     "createdAt": "2024-05-11T11:45:00Z"
@@ -39,7 +39,7 @@
     "id": "TKT-005",
     "title": "Database Connection Issue",
     "description": "Occasional 500 errors appearing during peak hours.",
-    "customer": "Mehedi Hasan",
+    "customer": "Fahim",
     "priority": "High",
     "status": "pending",
     "createdAt": "2024-05-12T14:10:00Z"
@@ -106,5 +106,77 @@
     "priority": "Low",
     "status": "pending",
     "createdAt": "2024-05-15T15:40:00Z"
+  },
+  {
+    "id": "TKT-013",
+    "title": "API Documentation Access",
+    "description": "Developer team needs access to the private API documentation for integration.",
+    "customer": "Kazi Fahim",
+    "priority": "Medium",
+    "status": "pending",
+    "createdAt": "2024-05-16T10:20:00Z"
+  },
+  {
+    "id": "TKT-014",
+    "title": "Broken Image Links",
+    "description": "Product thumbnails are not loading in the 'New Arrivals' category.",
+    "customer": "Rumana Islam",
+    "priority": "High",
+    "status": "pending",
+    "createdAt": "2024-05-16T11:45:00Z"
+  },
+  {
+    "id": "TKT-015",
+    "title": "Password Reset Bug",
+    "description": "Users are getting a 404 error when clicking the link in the password reset email.",
+    "customer": "Mahmudul Hasan",
+    "priority": "Critical",
+    "status": "pending",
+    "createdAt": "2024-05-17T09:00:00Z"
+  },
+  {
+    "id": "TKT-016",
+    "title": "Slow Checkout Process",
+    "description": "Checkout page takes more than 15 seconds to process payments.",
+    "customer": "Ayesha Siddiqua",
+    "priority": "High",
+    "status": "pending",
+    "createdAt": "2024-05-17T14:30:00Z"
+  },
+  {
+    "id": "TKT-017",
+    "title": "Social Media Meta Tags",
+    "description": "OG tags are missing; product images don't show when shared on Facebook.",
+    "customer": "Tanvir Ahmed",
+    "priority": "Low",
+    "status": "pending",
+    "createdAt": "2024-05-18T08:15:00Z"
+  },
+  {
+    "id": "TKT-018",
+    "title": "Invoice PDF Generation",
+    "description": "The system fails to generate invoices for orders placed via credit cards.",
+    "customer": "Sharmeen Akter",
+    "priority": "Medium",
+    "status": "pending",
+    "createdAt": "2024-05-18T16:50:00Z"
+  },
+  {
+    "id": "TKT-019",
+    "title": "Dark Mode Contrast",
+    "description": "Text is barely readable in dark mode inside the user profile settings.",
+    "customer": "Imran Khan",
+    "priority": "Low",
+    "status": "pending",
+    "createdAt": "2024-05-19T10:10:00Z"
+  },
+  {
+    "id": "TKT-020",
+    "title": "Double Charging Issue",
+    "description": "A customer was charged twice for a single successful transaction.",
+    "customer": "Farhana Yasmin",
+    "priority": "Critical",
+    "status": "pending",
+    "createdAt": "2024-05-19T12:00:00Z"
   }
 ]
