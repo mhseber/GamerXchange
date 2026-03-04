@@ -1,17 +1,18 @@
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div>
+    <header>
       <section
         id="navbar-section"
-        className="fixed top-0 left-0 z-50 w-full shadow-md bg-base-100"
+        className="fixed top-0 left-0 z-50 w-full shadow-sm bg-base-100 border-b border-gray-100"
       >
-        <div className="px-4 navbar md:px-10 lg:px-20">
+        <div className="px-4 navbar md:px-10 lg:px-20 max-w-7xl mx-auto">
+          {/* লোগো সেকশন - Left */}
           <div className="navbar-start">
             <div className="dropdown">
               <div
                 tabIndex="0"
                 role="button"
-                className="btn btn-ghost lg:hidden"
+                className="btn btn-ghost lg:hidden p-0 mr-3"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -30,100 +31,80 @@ const navbar = () => {
               </div>
               <ul
                 tabIndex="0"
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow-2xl border border-green-700 "
+                className="menu menu-sm dropdown-content bg-base-100 rounded-2xl mt-3 w-52 p-2 shadow-2xl border border-gray-100 "
               >
                 <li>
-                  <a className="active:bg-green-500 hover:text-black">Home</a>
+                  <a>Home</a>
                 </li>
                 <li>
-                  <a className="active:bg-green-500 hover:text-black">FAQ</a>
+                  <a>FAQ</a>
                 </li>
                 <li>
-                  <a className="active:bg-green-500 hover:text-black">
+                  <a>Changelog</a>
+                </li>
+                <li>
+                  <a>Blog</a>
+                </li>
+                <li>
+                  <a>Download</a>
+                </li>
+                <li>
+                  <a>Contact</a>
+                </li>
+              </ul>
+            </div>
+            <a className="text-3xl font-black text-slate-800 cursor-pointer md:text-2xl tracking-tighter">
+              CS<span className="text-purple-600"> Ticket System</span>
+            </a>
+          </div>
+
+          {/* মেনু এবং বাটন সেকশন - Right */}
+          <div className="navbar-end gap-4">
+            {/* Desktop Menu */}
+            <div className="hidden lg:flex">
+              <ul className="flex gap-1 px-1 text-[15px] font-bold text-slate-600">
+                <li>
+                  <a className="px-4 py-2 transition-all rounded-xl hover:bg-slate-50 hover:text-purple-600">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a className="px-4 py-2 transition-all rounded-xl hover:bg-slate-50 hover:text-purple-600">
+                    FAQ
+                  </a>
+                </li>
+                <li>
+                  <a className="px-4 py-2 transition-all rounded-xl hover:bg-slate-50 hover:text-purple-600">
                     Changelog
                   </a>
                 </li>
                 <li>
-                  <a className="active:bg-green-500 hover:text-black">Blog</a>
+                  <a className="px-4 py-2 transition-all rounded-xl hover:bg-slate-50 hover:text-purple-600">
+                    Blog
+                  </a>
                 </li>
                 <li>
-                  <a className="active:bg-green-500 hover:text-black">
+                  <a className="px-4 py-2 transition-all rounded-xl hover:bg-slate-50 hover:text-purple-600">
                     Download
                   </a>
                 </li>
                 <li>
-                  <a className="active:bg-green-500 hover:text-black">
+                  <a className="px-4 py-2 transition-all rounded-xl hover:bg-slate-50 hover:text-purple-600">
                     Contact
                   </a>
                 </li>
               </ul>
             </div>
-            <a className="text-xl font-extrabold text-black pl-5 cursor-pointer md:text-3xl">
-              CS-Ticket System
-            </a>
-          </div>
 
-          {/* Navbar Center - Desktop Menu */}
-          <div className="hidden navbar-center lg:flex pl-36">
-            <ul className="gap-2 px-1 text-[16px] font-semibold menu menu-horizontal">
-              <li>
-                <a className="transition-all duration-300 rounded-lg hover:bg-green-500 hover:text-white active:scale-95">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="products.html"
-                  className="transition-all duration-300 rounded-lg hover:bg-green-500 hover:text-white active:scale-95"
-                >
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a
-                  href="aboutUs.html"
-                  className="transition-all duration-300 rounded-lg hover:bg-green-500 hover:text-white active:scale-95"
-                >
-                  Changelog
-                </a>
-              </li>
-              <li>
-                <a
-                  href="contact.html"
-                  className="transition-all duration-300 rounded-lg hover:bg-green-500 hover:text-white active:scale-95"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  href="contact.html"
-                  className="transition-all duration-300 rounded-lg hover:bg-green-500 hover:text-white active:scale-95"
-                >
-                  Download
-                </a>
-              </li>
-              <li>
-                <a
-                  href="contact.html"
-                  className="transition-all duration-300 rounded-lg hover:bg-green-500 hover:text-white active:scale-95"
-                >
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Navbar End - Action Button */}
-          <div className="navbar-end">
-            <button className="px-6 text-white border-none btn bg-purple-600 hover:bg-purple-700 active:scale-95 shadow-lg">
+            {/* Action Button */}
+            <button className="btn bg-purple-600 hover:bg-purple-700 text-white border-none rounded-xl px-6 shadow-lg shadow-purple-200 capitalize active:scale-95 transition-transform">
               New Ticket
             </button>
           </div>
         </div>
       </section>
-    </div>
+    </header>
   );
 };
 
-export default navbar;
+export default Navbar;
